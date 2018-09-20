@@ -15,6 +15,32 @@
 		A511C1312151535100226B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1302151535100226B84 /* main.m */; };
 		A511C13B2151535100226B84 /* SSNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C13A2151535100226B84 /* SSNetworkTests.m */; };
 		A511C1462151535100226B84 /* SSNetworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1452151535100226B84 /* SSNetworkUITests.m */; };
+		A511C1DC21528C6100226B84 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C19F21528C6100226B84 /* AFURLResponseSerialization.m */; };
+		A511C1DD21528C6100226B84 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1A021528C6100226B84 /* AFHTTPSessionManager.m */; };
+		A511C1DE21528C6100226B84 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1A221528C6100226B84 /* AFURLSessionManager.m */; };
+		A511C1DF21528C6100226B84 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1A321528C6100226B84 /* AFURLRequestSerialization.m */; };
+		A511C1E021528C6100226B84 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1A521528C6100226B84 /* AFNetworkReachabilityManager.m */; };
+		A511C1E121528C6100226B84 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1A621528C6100226B84 /* AFSecurityPolicy.m */; };
+		A511C1E221528C6100226B84 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1AD21528C6100226B84 /* MJPropertyType.m */; };
+		A511C1E321528C6100226B84 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1B021528C6100226B84 /* NSObject+MJKeyValue.m */; };
+		A511C1E421528C6100226B84 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1B121528C6100226B84 /* MJProperty.m */; };
+		A511C1E521528C6100226B84 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1B321528C6100226B84 /* NSObject+MJCoding.m */; };
+		A511C1E621528C6100226B84 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1B521528C6100226B84 /* MJExtensionConst.m */; };
+		A511C1E721528C6100226B84 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1B621528C6100226B84 /* NSObject+MJProperty.m */; };
+		A511C1E821528C6100226B84 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1B821528C6100226B84 /* NSObject+MJClass.m */; };
+		A511C1E921528C6100226B84 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1B921528C6100226B84 /* NSString+MJExtension.m */; };
+		A511C1EA21528C6100226B84 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1BA21528C6100226B84 /* MJPropertyKey.m */; };
+		A511C1EB21528C6100226B84 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A511C1BE21528C6100226B84 /* Info.plist */; };
+		A511C1EC21528C6100226B84 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C1BF21528C6100226B84 /* MJFoundation.m */; };
+		A511C20E21528DAC00226B84 /* SSHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C20421528DAC00226B84 /* SSHttpConfig.m */; };
+		A511C20F21528DAC00226B84 /* SSHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C20621528DAC00226B84 /* SSHttpRequest.m */; };
+		A511C21021528DAC00226B84 /* SSHttpRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C20721528DAC00226B84 /* SSHttpRequestConfig.m */; };
+		A511C21121528DAC00226B84 /* SSCacheDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C20821528DAC00226B84 /* SSCacheDataCenter.m */; };
+		A511C21221528DAC00226B84 /* SSHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C20A21528DAC00226B84 /* SSHttpResponse.m */; };
+		A511C21321528DAC00226B84 /* SSCacheBaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C20B21528DAC00226B84 /* SSCacheBaseData.m */; };
+		A511C21421528DAC00226B84 /* SSHttpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C20D21528DAC00226B84 /* SSHttpModel.m */; };
+		A511C2172152A19B00226B84 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C2162152A19B00226B84 /* BaseModel.m */; };
+		A511C21A2152A1E200226B84 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A511C2192152A1E200226B84 /* TestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +77,61 @@
 		A511C1412151535100226B84 /* SSNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A511C1452151535100226B84 /* SSNetworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSNetworkUITests.m; sourceTree = "<group>"; };
 		A511C1472151535100226B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A511C19B21528C6100226B84 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A511C19C21528C6100226B84 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A511C19D21528C6100226B84 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A511C19E21528C6100226B84 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A511C19F21528C6100226B84 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A511C1A021528C6100226B84 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A511C1A121528C6100226B84 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A511C1A221528C6100226B84 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A511C1A321528C6100226B84 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A511C1A421528C6100226B84 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A511C1A521528C6100226B84 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A511C1A621528C6100226B84 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A511C1A721528C6100226B84 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		A511C1A821528C6100226B84 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A511C1AA21528C6100226B84 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		A511C1AB21528C6100226B84 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		A511C1AC21528C6100226B84 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		A511C1AD21528C6100226B84 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		A511C1AE21528C6100226B84 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		A511C1AF21528C6100226B84 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		A511C1B021528C6100226B84 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		A511C1B121528C6100226B84 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		A511C1B221528C6100226B84 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		A511C1B321528C6100226B84 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		A511C1B421528C6100226B84 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		A511C1B521528C6100226B84 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		A511C1B621528C6100226B84 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		A511C1B721528C6100226B84 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		A511C1B821528C6100226B84 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		A511C1B921528C6100226B84 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		A511C1BA21528C6100226B84 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		A511C1BB21528C6100226B84 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		A511C1BC21528C6100226B84 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		A511C1BD21528C6100226B84 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		A511C1BE21528C6100226B84 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A511C1BF21528C6100226B84 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		A511C1FE21528DAC00226B84 /* SSHttpModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHttpModel.h; sourceTree = "<group>"; };
+		A511C20021528DAC00226B84 /* SSHttpRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHttpRequestConfig.h; sourceTree = "<group>"; };
+		A511C20121528DAC00226B84 /* SSHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHttpRequest.h; sourceTree = "<group>"; };
+		A511C20221528DAC00226B84 /* SSHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHttpResponse.h; sourceTree = "<group>"; };
+		A511C20321528DAC00226B84 /* SSCacheDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCacheDataCenter.h; sourceTree = "<group>"; };
+		A511C20421528DAC00226B84 /* SSHttpConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHttpConfig.m; sourceTree = "<group>"; };
+		A511C20521528DAC00226B84 /* SSCacheBaseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCacheBaseData.h; sourceTree = "<group>"; };
+		A511C20621528DAC00226B84 /* SSHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHttpRequest.m; sourceTree = "<group>"; };
+		A511C20721528DAC00226B84 /* SSHttpRequestConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHttpRequestConfig.m; sourceTree = "<group>"; };
+		A511C20821528DAC00226B84 /* SSCacheDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCacheDataCenter.m; sourceTree = "<group>"; };
+		A511C20921528DAC00226B84 /* SSNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNetwork.h; sourceTree = "<group>"; };
+		A511C20A21528DAC00226B84 /* SSHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHttpResponse.m; sourceTree = "<group>"; };
+		A511C20B21528DAC00226B84 /* SSCacheBaseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCacheBaseData.m; sourceTree = "<group>"; };
+		A511C20C21528DAC00226B84 /* SSHttpConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHttpConfig.h; sourceTree = "<group>"; };
+		A511C20D21528DAC00226B84 /* SSHttpModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHttpModel.m; sourceTree = "<group>"; };
+		A511C2152152A19B00226B84 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		A511C2162152A19B00226B84 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		A511C2182152A1E200226B84 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		A511C2192152A1E200226B84 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +182,15 @@
 		A511C1202151535100226B84 /* SSNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				A511C1FD21528D6700226B84 /* SSNetwork */,
+				A511C19A21528C6100226B84 /* AFNetworking */,
+				A511C1A921528C6100226B84 /* MJExtension */,
 				A511C1212151535100226B84 /* AppDelegate.h */,
 				A511C1222151535100226B84 /* AppDelegate.m */,
+				A511C2152152A19B00226B84 /* BaseModel.h */,
+				A511C2162152A19B00226B84 /* BaseModel.m */,
+				A511C2182152A1E200226B84 /* TestModel.h */,
+				A511C2192152A1E200226B84 /* TestModel.m */,
 				A511C1242151535100226B84 /* ViewController.h */,
 				A511C1252151535100226B84 /* ViewController.m */,
 				A511C1272151535100226B84 /* Main.storyboard */,
@@ -130,6 +218,86 @@
 				A511C1472151535100226B84 /* Info.plist */,
 			);
 			path = SSNetworkUITests;
+			sourceTree = "<group>";
+		};
+		A511C19A21528C6100226B84 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A511C19B21528C6100226B84 /* AFSecurityPolicy.h */,
+				A511C19C21528C6100226B84 /* AFNetworkReachabilityManager.h */,
+				A511C19D21528C6100226B84 /* AFURLSessionManager.h */,
+				A511C19E21528C6100226B84 /* AFURLRequestSerialization.h */,
+				A511C19F21528C6100226B84 /* AFURLResponseSerialization.m */,
+				A511C1A021528C6100226B84 /* AFHTTPSessionManager.m */,
+				A511C1A121528C6100226B84 /* AFURLResponseSerialization.h */,
+				A511C1A221528C6100226B84 /* AFURLSessionManager.m */,
+				A511C1A321528C6100226B84 /* AFURLRequestSerialization.m */,
+				A511C1A421528C6100226B84 /* AFNetworking.h */,
+				A511C1A521528C6100226B84 /* AFNetworkReachabilityManager.m */,
+				A511C1A621528C6100226B84 /* AFSecurityPolicy.m */,
+				A511C1A721528C6100226B84 /* AFCompatibilityMacros.h */,
+				A511C1A821528C6100226B84 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A511C1A921528C6100226B84 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A511C1AA21528C6100226B84 /* MJPropertyKey.h */,
+				A511C1AB21528C6100226B84 /* NSObject+MJClass.h */,
+				A511C1AC21528C6100226B84 /* NSString+MJExtension.h */,
+				A511C1AD21528C6100226B84 /* MJPropertyType.m */,
+				A511C1AE21528C6100226B84 /* NSObject+MJProperty.h */,
+				A511C1AF21528C6100226B84 /* MJExtensionConst.h */,
+				A511C1B021528C6100226B84 /* NSObject+MJKeyValue.m */,
+				A511C1B121528C6100226B84 /* MJProperty.m */,
+				A511C1B221528C6100226B84 /* MJFoundation.h */,
+				A511C1B321528C6100226B84 /* NSObject+MJCoding.m */,
+				A511C1B421528C6100226B84 /* MJExtension.h */,
+				A511C1B521528C6100226B84 /* MJExtensionConst.m */,
+				A511C1B621528C6100226B84 /* NSObject+MJProperty.m */,
+				A511C1B721528C6100226B84 /* MJPropertyType.h */,
+				A511C1B821528C6100226B84 /* NSObject+MJClass.m */,
+				A511C1B921528C6100226B84 /* NSString+MJExtension.m */,
+				A511C1BA21528C6100226B84 /* MJPropertyKey.m */,
+				A511C1BB21528C6100226B84 /* MJProperty.h */,
+				A511C1BC21528C6100226B84 /* NSObject+MJKeyValue.h */,
+				A511C1BD21528C6100226B84 /* NSObject+MJCoding.h */,
+				A511C1BE21528C6100226B84 /* Info.plist */,
+				A511C1BF21528C6100226B84 /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		A511C1FD21528D6700226B84 /* SSNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				A511C1FF21528DAC00226B84 /* Http */,
+				A511C1FE21528DAC00226B84 /* SSHttpModel.h */,
+				A511C20D21528DAC00226B84 /* SSHttpModel.m */,
+			);
+			path = SSNetwork;
+			sourceTree = "<group>";
+		};
+		A511C1FF21528DAC00226B84 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				A511C20921528DAC00226B84 /* SSNetwork.h */,
+				A511C20121528DAC00226B84 /* SSHttpRequest.h */,
+				A511C20621528DAC00226B84 /* SSHttpRequest.m */,
+				A511C20C21528DAC00226B84 /* SSHttpConfig.h */,
+				A511C20421528DAC00226B84 /* SSHttpConfig.m */,
+				A511C20021528DAC00226B84 /* SSHttpRequestConfig.h */,
+				A511C20721528DAC00226B84 /* SSHttpRequestConfig.m */,
+				A511C20221528DAC00226B84 /* SSHttpResponse.h */,
+				A511C20A21528DAC00226B84 /* SSHttpResponse.m */,
+				A511C20521528DAC00226B84 /* SSCacheBaseData.h */,
+				A511C20B21528DAC00226B84 /* SSCacheBaseData.m */,
+				A511C20321528DAC00226B84 /* SSCacheDataCenter.h */,
+				A511C20821528DAC00226B84 /* SSCacheDataCenter.m */,
+			);
+			path = Http;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A511C1EB21528C6100226B84 /* Info.plist in Resources */,
 				A511C12E2151535100226B84 /* LaunchScreen.storyboard in Resources */,
 				A511C12B2151535100226B84 /* Assets.xcassets in Resources */,
 				A511C1292151535100226B84 /* Main.storyboard in Resources */,
@@ -265,8 +434,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A511C2172152A19B00226B84 /* BaseModel.m in Sources */,
+				A511C1EC21528C6100226B84 /* MJFoundation.m in Sources */,
+				A511C21021528DAC00226B84 /* SSHttpRequestConfig.m in Sources */,
+				A511C21121528DAC00226B84 /* SSCacheDataCenter.m in Sources */,
 				A511C1262151535100226B84 /* ViewController.m in Sources */,
+				A511C1E121528C6100226B84 /* AFSecurityPolicy.m in Sources */,
+				A511C1E621528C6100226B84 /* MJExtensionConst.m in Sources */,
 				A511C1312151535100226B84 /* main.m in Sources */,
+				A511C1DD21528C6100226B84 /* AFHTTPSessionManager.m in Sources */,
+				A511C1E321528C6100226B84 /* NSObject+MJKeyValue.m in Sources */,
+				A511C1DE21528C6100226B84 /* AFURLSessionManager.m in Sources */,
+				A511C1E721528C6100226B84 /* NSObject+MJProperty.m in Sources */,
+				A511C20E21528DAC00226B84 /* SSHttpConfig.m in Sources */,
+				A511C21321528DAC00226B84 /* SSCacheBaseData.m in Sources */,
+				A511C1E221528C6100226B84 /* MJPropertyType.m in Sources */,
+				A511C1E521528C6100226B84 /* NSObject+MJCoding.m in Sources */,
+				A511C21421528DAC00226B84 /* SSHttpModel.m in Sources */,
+				A511C1E421528C6100226B84 /* MJProperty.m in Sources */,
+				A511C1DC21528C6100226B84 /* AFURLResponseSerialization.m in Sources */,
+				A511C21A2152A1E200226B84 /* TestModel.m in Sources */,
+				A511C21221528DAC00226B84 /* SSHttpResponse.m in Sources */,
+				A511C1DF21528C6100226B84 /* AFURLRequestSerialization.m in Sources */,
+				A511C1EA21528C6100226B84 /* MJPropertyKey.m in Sources */,
+				A511C1E821528C6100226B84 /* NSObject+MJClass.m in Sources */,
+				A511C1E921528C6100226B84 /* NSString+MJExtension.m in Sources */,
+				A511C1E021528C6100226B84 /* AFNetworkReachabilityManager.m in Sources */,
+				A511C20F21528DAC00226B84 /* SSHttpRequest.m in Sources */,
 				A511C1232151535100226B84 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

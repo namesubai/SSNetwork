@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "SSNetwork.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,6 +18,27 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    ///服务器链接
+    [SSHttpConfig shareConfig].httpServiceUrl  = @"";
+    
+    ///参数上传的类型
+    [SSHttpConfig shareConfig].requestParamsType = RequestParamsJsonType;
+    
+    ///配置全局参数
+    [[SSHttpConfig shareConfig]setUnifiedParamsConfig:^NSDictionary *{
+        return @{@"param1":@"",@"param2":@""};
+    }];
+    
+    ///请求头参数
+    [[SSHttpConfig shareConfig]setHeaderParamsConfig:^NSDictionary *{
+        return @{@"param1":@"",@"param2":@""};
+    }];
+    
+    
+    
+    
+
     // Override point for customization after application launch.
     return YES;
 }

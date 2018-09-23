@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-
 #import "SSNetwork.h"
 
 @interface AppDelegate ()
@@ -18,6 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
     
     ///服务器链接
     [SSHttpConfig shareConfig].httpServiceUrl  = @"";

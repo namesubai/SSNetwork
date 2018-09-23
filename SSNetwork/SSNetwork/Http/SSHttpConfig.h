@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@class SSHttpRequestConfig;
+#import "SSHttpRequestConfig.h"
 
 @interface SSHttpConfig : NSObject
 + (instancetype)shareConfig;
@@ -24,6 +23,7 @@
 
 ///参数上传的类型
 @property (nonatomic, assign) RequestParamsType requestParamsType;
+
 ///配置全局参数
 @property (nonatomic, strong) NSDictionary *(^unifiedParamsConfig)(void);
 
